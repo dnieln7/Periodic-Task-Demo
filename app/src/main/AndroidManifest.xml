@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Periodictask">
+        <activity android:name=".ImproveActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,8 +29,7 @@
                 <category android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </service>
-
-        <service android:name=".service.ReminderServiceInitializer$ReminderService"/>
+        <service android:name=".service.ReminderServiceInitializer$ReminderService" />
     </application>
 
 </manifest>
